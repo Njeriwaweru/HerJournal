@@ -60,10 +60,6 @@
 | **Notifications** | React Toastify | User feedback and alerts |
 | **Build Tool** | Vite | Fast development and building |
 
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js 16+ and npm/yarn
 
 <div align="center">
 Built with ❤️ by Praise Waweru
