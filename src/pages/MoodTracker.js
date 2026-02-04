@@ -22,12 +22,12 @@ const MoodTracker = () => {
     const [selectedIntensity, setSelectedIntensity] = useState(3);
     const [activeCategory, setActiveCategory] = useState("all");
 
-    const loadMoodHistory = () => {
+    const loadMoodHistory = useCallback(() => {
         const savedMoods = JSON.parse(localStorage.getItem("moodHistory")) || [];
         setMoodHistory(savedMoods);
         analyzeMoods(savedMoods);
-    };
-    
+    }, []);
+
     // Load mood history on component mount
     useEffect(() => {
         loadMoodHistory();
