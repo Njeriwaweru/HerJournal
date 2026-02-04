@@ -19,7 +19,7 @@
 **HerJournal** is a modern web application designed to help you track your emotional well-being, reflect on your daily experiences, and achieve personal goals. With its soothing design and intuitive interface, it creates a gentle digital space for self-awareness and mindful consistency.
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400/pink/white?text=HerJournal+Screenshots" alt="App Preview" width="800" />
+  <img src="./src/assets/preview.png" alt="App Preview" width="800" />
 </div>
 
 ## 🌟 Key Features

@@ -102,7 +102,7 @@ const Layout = () => {
                       whileTap={{ scale: 0.95 }}
                       className={`px-6 py-3 rounded-xl transition-all duration-300 flex items-center space-x-2 ${
                         location.pathname === item.path
-                          ? "text-white shadow-lg"
+                          ? "text-black shadow-lg"
                           : "text-gray-600 hover:text-gray-900 hover:bg-white/50"
                       }`}
                       style={{
