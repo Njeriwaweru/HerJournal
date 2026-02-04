@@ -1,13 +1,9 @@
 import { motion } from "framer-motion";
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, AreaChart, Area } from 'recharts';
-import { TrendingUp, Heart, Activity } from "lucide-react";
+import { TrendingUp, Heart } from "lucide-react";
 import StatsCard from "../common/StatsCard";
 import MoodHistoryItem from "./MoodHistoryItem";
 
-const MoodAnalytics = ({ moodHistory, analysis, onClose }) => {
-    // This is a simplified version - you can expand it based on your needs
-    // For now, let's create a basic analytics component
-    
+const MoodAnalytics = ({ moodHistory, onClose }) => {
     const calculateBasicStats = () => {
         const total = moodHistory.length;
         const completed = moodHistory.filter(m => m.category === "Positive").length;
