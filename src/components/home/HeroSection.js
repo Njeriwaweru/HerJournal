@@ -42,7 +42,7 @@ const HeroSection = ({ onStartJourney, onBrowseFeatures }) => {
                     onClick={onBrowseFeatures}
                     gradient="from-white to-gray-50"
                     size="lg"
-                    className="px-8 py-4 border border-gray-200 text-gray-800"
+                    className="px-8 py-4 border border-gray-200 text-black"
                 >
                     Browse Features
                 </AnimatedButton>
