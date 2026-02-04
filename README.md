@@ -10,7 +10,7 @@
 
 *A beautiful, intuitive journaling app for mood tracking, reflection writing, and goal setting*
 
-[🚀 Live Demo](#) | [📖 Documentation](#) | [🐛 Report Bug](#) | [💡 Request Feature](#)
+[🚀 Live Demo](https://her-journal.vercel.app/) | [📖 Documentation](#) | [🐛 Report Bug](#) | [💡 Request Feature](#)
 
 </div>
 
