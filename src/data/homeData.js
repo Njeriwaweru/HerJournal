@@ -1,4 +1,4 @@
-import { Heart, PenTool, Target, Sparkles } from "lucide-react";
+import { Heart, PenTool, Target } from "lucide-react";
 
 export const features = [
     {

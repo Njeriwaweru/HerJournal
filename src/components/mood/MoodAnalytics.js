@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, AreaChart, Area } from 'recharts';
 import { TrendingUp, Heart, Activity } from "lucide-react";
 import StatsCard from "../common/StatsCard";
-import ChartContainer from "../common/ChartContainer";
 import MoodHistoryItem from "./MoodHistoryItem";
 
 const MoodAnalytics = ({ moodHistory, analysis, onClose }) => {

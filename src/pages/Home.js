@@ -11,7 +11,6 @@ import FeatureCard from "../components/home/FeatureCard";
 import TestimonialCard from "../components/home/TestimonialCard";
 import CTASection from "../components/home/CTASection";
 import AppFooter from "../components/home/AppFooter";
-import AnimatedButton from "../components/common/AnimatedButton";
 
 // Import Data
 import { features, testimonials } from "../data/homeData";

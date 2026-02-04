@@ -25,7 +25,7 @@ const MoodTracker = () => {
     // Load mood history on component mount
     useEffect(() => {
         loadMoodHistory();
-    }, []);
+    }, [loadMoodHistory]);
 
     const loadMoodHistory = () => {
         const savedMoods = JSON.parse(localStorage.getItem("moodHistory")) || [];
